@@ -64,17 +64,20 @@ function displayTime() {
       break
   }
 
-  if(hour < 10) {
-    hour = "0" + hour
-  }
-  if(minute < 10) {
-    minute = "0" + minute
-  }
-  if(second < 10) {
-    second = "0" + second
-  }
+  let hourValue = hour.toLocaleString('en-US',{
+    minimumIntegerDigits:2,
+    useGrouping:false
+  })
+  let minuteValue = minute.toLocaleString('en-US',{
+    minimumIntegerDigits:2,
+    useGrouping:false
+  })
+  let secondValue = second.toLocaleString('en-US',{
+    minimumIntegerDigits:2,
+    useGrouping:false
+  })
 
-  time = `${hour} : ${minute} : ${second}  ${daynight}`
+  time = `${hourValue} : ${minuteValue} : ${secondValue}  ${daynight}`
   timeUI.innerHTML = time
 }
 
