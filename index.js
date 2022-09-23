@@ -15,51 +15,51 @@ function displayTime() {
       daynight = 'P.M'
       break
     case 13:
-      hour = '1'
+      hour = 1
       daynight = 'P.M'
       break
     case 14:
-      hour = '2'
+      hour = 2
       daynight = 'P.M'
       break
     case 15:
-      hour = '3'
+      hour = 3
       daynight = 'P.M'
       break
     case 16:
-      hour = '4'
+      hour = 4
       daynight = 'P.M'
       break
     case 17:
-      hour = '5'
+      hour = 5
       daynight = 'P.M'
       break
     case 18:
-      hour = '6'
+      hour = 6
       daynight = 'P.M'
       break
     case 19:
-      hour = '7'
+      hour = 7
       daynight = 'P.M'
       break
     case 20:
-      hour = '8'
+      hour = 8
       daynight = 'P.M'
       break
     case 21:
-      hour = '9'
+      hour = 9
       daynight = 'P.M'
       break
     case 22:
-      hour = '10'
+      hour = 10
       daynight = 'P.M'
       break
     case 23:
-      hour = '11'
+      hour = 11
       daynight = 'P.M'
       break
     case 24:
-      hour = '0'
+      hour = 0
       daynight = 'A.M'
       break
   }
